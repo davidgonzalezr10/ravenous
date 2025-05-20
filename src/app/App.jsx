@@ -5,12 +5,13 @@ import BusinessList from '../components/BusinessList/BusinessList';
 import SearchBar from '../components/SearchBar/SearchBar';
 
 
+
 function App() {
 
   return (
     <>
       <div>
-        <h1>Ravenous</h1>
+        <h1>ravenous</h1>
         <SearchBar />
         <BusinessList BusinessData={BusinessData} />
       </div>
