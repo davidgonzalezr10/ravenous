@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './App.css'
-import Button from 'react-bootstrap/Button';
 import BusinessData from './businessData';
 import BusinessList from '../components/BusinessList/BusinessList';
 import SearchBar from '../components/SearchBar/SearchBar';
@@ -11,7 +10,8 @@ function App() {
   return (
     <>
       <div>
-        
+        <h1>Ravenous</h1>
+        <SearchBar />
         <BusinessList BusinessData={BusinessData} />
       </div>
     </>
@@ -19,3 +19,5 @@ function App() {
 }
 
 export default App
+
+
